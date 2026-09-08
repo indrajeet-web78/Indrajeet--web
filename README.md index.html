@@ -1,0 +1,1274 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Shree Bajrangi Boys Hostel | Vidhani Jaipur</title>
+
+<meta name="description"
+content="Shree Bajrangi Boys Hostel near JECRC University and Poornima University, Goner Road, Vidhani, Jaipur. Comfortable rooms for students and working professionals.">
+
+<meta name="theme-color" content="#0f172a">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    background:#f8fafc;
+    color:#172033;
+    line-height:1.6;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+img{
+    width:100%;
+    display:block;
+}
+
+/* ================= HEADER ================= */
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:1000;
+    background:rgba(15,23,42,.95);
+    backdrop-filter:blur(12px);
+    box-shadow:0 4px 20px rgba(0,0,0,.15);
+}
+
+.navbar{
+    max-width:1200px;
+    margin:auto;
+    height:75px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 20px;
+}
+
+.logo{
+    color:white;
+    font-size:21px;
+    font-weight:800;
+}
+
+.logo span{
+    color:#fbbf24;
+}
+
+.nav-links{
+    display:flex;
+    gap:28px;
+    list-style:none;
+}
+
+.nav-links a{
+    color:white;
+    font-size:15px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#fbbf24;
+}
+
+.menu-btn{
+    display:none;
+    color:white;
+    font-size:30px;
+    cursor:pointer;
+}
+
+/* ================= HERO ================= */
+
+.hero{
+    min-height:100vh;
+    padding:120px 20px 70px;
+    display:flex;
+    align-items:center;
+    background:
+    linear-gradient(rgba(2,6,23,.72),rgba(2,6,23,.72)),
+    url("front.jpg") center/cover no-repeat;
+}
+
+.hero-content{
+    max-width:1100px;
+    margin:auto;
+    color:white;
+    width:100%;
+}
+
+.badge{
+    display:inline-block;
+    padding:8px 15px;
+    background:rgba(251,191,36,.15);
+    border:1px solid #fbbf24;
+    color:#fbbf24;
+    border-radius:30px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    font-size:clamp(38px,7vw,72px);
+    line-height:1.08;
+    max-width:850px;
+}
+
+.hero h1 span{
+    color:#fbbf24;
+}
+
+.hero p{
+    margin:22px 0;
+    max-width:700px;
+    font-size:19px;
+    color:#e5e7eb;
+}
+
+.buttons{
+    display:flex;
+    gap:14px;
+    flex-wrap:wrap;
+}
+
+.btn{
+    padding:14px 23px;
+    border-radius:10px;
+    font-weight:bold;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+.btn-primary{
+    background:#fbbf24;
+    color:#111827;
+}
+
+.btn-dark{
+    background:white;
+    color:#111827;
+}
+
+/* ================= GENERAL ================= */
+
+section{
+    padding:90px 20px;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title small{
+    color:#d97706;
+    font-weight:bold;
+    text-transform:uppercase;
+    letter-spacing:2px;
+}
+
+.section-title h2{
+    font-size:38px;
+    margin-top:8px;
+}
+
+.section-title p{
+    color:#64748b;
+    max-width:650px;
+    margin:10px auto;
+}
+
+/* ================= ROOMS ================= */
+
+.rooms{
+    background:white;
+}
+
+.room-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.room-card{
+    background:white;
+    border-radius:18px;
+    overflow:hidden;
+    border:1px solid #e2e8f0;
+    box-shadow:0 10px 30px rgba(15,23,42,.08);
+    transition:.3s;
+}
+
+.room-card:hover{
+    transform:translateY(-7px);
+    box-shadow:0 18px 40px rgba(15,23,42,.15);
+}
+
+.room-img{
+    height:220px;
+    object-fit:cover;
+}
+
+.room-info{
+    padding:24px;
+}
+
+.room-info h3{
+    font-size:22px;
+    margin-bottom:8px;
+}
+
+.price{
+    font-size:25px;
+    font-weight:800;
+    color:#d97706;
+    margin:12px 0;
+}
+
+.features{
+    list-style:none;
+    color:#64748b;
+}
+
+.features li{
+    margin:7px 0;
+}
+
+.book-btn{
+    display:block;
+    margin-top:20px;
+    padding:12px;
+    text-align:center;
+    background:#16a34a;
+    color:white;
+    border-radius:9px;
+    font-weight:bold;
+}
+
+/* ================= FEATURES ================= */
+
+.features-section{
+    background:#f1f5f9;
+}
+
+.feature-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.feature{
+    background:white;
+    padding:28px 18px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 7px 25px rgba(0,0,0,.06);
+}
+
+.feature-icon{
+    font-size:35px;
+    margin-bottom:12px;
+}
+
+.feature h3{
+    font-size:18px;
+}
+
+/* ================= GALLERY ================= */
+
+.gallery{
+    background:white;
+}
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:15px;
+}
+
+.gallery-grid img{
+    height:250px;
+    object-fit:cover;
+    border-radius:14px;
+    transition:.3s;
+}
+
+.gallery-grid img:hover{
+    transform:scale(1.02);
+}
+
+/* ================= ABOUT ================= */
+
+.about{
+    background:#0f172a;
+    color:white;
+}
+
+.about-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:center;
+}
+
+.about-img{
+    border-radius:20px;
+    max-height:500px;
+    object-fit:cover;
+}
+
+.about h2{
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.about p{
+    color:#cbd5e1;
+    margin-bottom:16px;
+}
+
+.owner-box{
+    margin-top:25px;
+    padding:20px;
+    border-left:4px solid #fbbf24;
+    background:rgba(255,255,255,.05);
+}
+
+/* ================= LOCATION ================= */
+
+.location{
+    background:#f8fafc;
+}
+
+.location-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:30px;
+}
+
+.map{
+    width:100%;
+    min-height:380px;
+    border:0;
+    border-radius:18px;
+}
+
+.location-card{
+    background:white;
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0 10px 30px rgba(0,0,0,.07);
+}
+
+.location-card h3{
+    font-size:28px;
+    margin-bottom:20px;
+}
+
+.location-item{
+    margin:18px 0;
+}
+
+.location-item strong{
+    display:block;
+    margin-bottom:4px;
+}
+
+/* ================= BOOKING ================= */
+
+.booking{
+    background:#fff7ed;
+}
+
+.booking-form{
+    max-width:700px;
+    margin:auto;
+    background:white;
+    padding:35px;
+    border-radius:20px;
+    box-shadow:0 12px 40px rgba(0,0,0,.08);
+}
+
+.form-group{
+    margin-bottom:18px;
+}
+
+.form-group label{
+    display:block;
+    margin-bottom:7px;
+    font-weight:bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea{
+    width:100%;
+    padding:14px;
+    border:1px solid #cbd5e1;
+    border-radius:9px;
+    font-size:15px;
+    outline:none;
+}
+
+.form-group textarea{
+    resize:vertical;
+}
+
+.whatsapp-submit{
+    width:100%;
+    border:0;
+    padding:15px;
+    border-radius:10px;
+    background:#16a34a;
+    color:white;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+/* ================= FOOTER ================= */
+
+footer{
+    background:#020617;
+    color:#cbd5e1;
+    padding:50px 20px 25px;
+}
+
+.footer-grid{
+    max-width:1100px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr;
+    gap:40px;
+}
+
+footer h3{
+    color:white;
+    margin-bottom:15px;
+}
+
+footer a{
+    display:block;
+    margin:8px 0;
+}
+
+.copyright{
+    text-align:center;
+    border-top:1px solid #1e293b;
+    margin-top:35px;
+    padding-top:20px;
+}
+
+/* ================= FLOATING BUTTONS ================= */
+
+.whatsapp-float{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    width:58px;
+    height:58px;
+    border-radius:50%;
+    background:#16a34a;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:27px;
+    z-index:999;
+    box-shadow:0 7px 25px rgba(0,0,0,.25);
+}
+
+.call-float{
+    position:fixed;
+    left:20px;
+    bottom:20px;
+    width:58px;
+    height:58px;
+    border-radius:50%;
+    background:#2563eb;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:25px;
+    z-index:999;
+    box-shadow:0 7px 25px rgba(0,0,0,.25);
+}
+
+/* ================= MOBILE ================= */
+
+@media(max-width:800px){
+
+    .menu-btn{
+        display:block;
+    }
+
+    .nav-links{
+        position:absolute;
+        top:75px;
+        left:0;
+        width:100%;
+        background:#0f172a;
+        flex-direction:column;
+        gap:0;
+        display:none;
+        padding:10px 20px 20px;
+    }
+
+    .nav-links.active{
+        display:flex;
+    }
+
+    .nav-links li{
+        border-bottom:1px solid #263244;
+    }
+
+    .nav-links a{
+        display:block;
+        padding:15px 5px;
+    }
+
+    .room-grid,
+    .feature-grid,
+    .gallery-grid{
+        grid-template-columns:1fr;
+    }
+
+    .about-grid,
+    .location-grid{
+        grid-template-columns:1fr;
+    }
+
+    .about h2{
+        font-size:32px;
+    }
+
+    .hero{
+        min-height:90vh;
+    }
+
+    .hero p{
+        font-size:16px;
+    }
+
+    .section-title h2{
+        font-size:30px;
+    }
+
+    .footer-grid{
+        grid-template-columns:1fr;
+    }
+
+    .gallery-grid img{
+        height:260px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header>
+
+<nav class="navbar">
+
+<a href="#home" class="logo">
+Shree <span>Bajrangi</span> Boys Hostel
+</a>
+
+<div class="menu-btn" onclick="toggleMenu()">
+☰
+</div>
+
+<ul class="nav-links" id="navLinks">
+
+<li><a href="#home">Home</a></li>
+<li><a href="#rooms">Rooms</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#location">Location</a></li>
+<li><a href="#booking">Booking</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<div class="badge">
+🏠 Boys Hostel • Vidhani Jaipur
+</div>
+
+<h1>
+Comfortable Stay Near
+<span>JECRC & Poornima University</span>
+</h1>
+
+<p>
+Welcome to Shree Bajrangi Boys Hostel — a convenient and comfortable
+stay option for students and working professionals in Goner Road,
+Vidhani, Jaipur.
+</p>
+
+<div class="buttons">
+
+<a href="#rooms" class="btn btn-primary">
+🛏️ View Rooms
+</a>
+
+<a href="https://wa.me/919772680180?text=Hello%20Shree%20Bajrangi%20Boys%20Hostel%2C%20I%20want%20to%20know%20about%20room%20availability."
+class="btn btn-dark">
+💬 WhatsApp Us
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ================= ROOMS ================= -->
+
+<section class="rooms" id="rooms">
+
+<div class="container">
+
+<div class="section-title">
+
+<small>Accommodation</small>
+
+<h2>Rooms & Rent</h2>
+
+<p>
+Choose the room option that suits your stay.
+</p>
+
+</div>
+
+
+<div class="room-grid">
+
+
+<div class="room-card">
+
+<img src="room1.jpg" class="room-img" alt="Boys hostel room">
+
+<div class="room-info">
+
+<h3>Single Occupancy</h3>
+
+<p>Private room for comfortable individual stay.</p>
+
+<div class="price">
+₹8,000 <small>/ month</small>
+</div>
+
+<ul class="features">
+
+<li>✓ Single person</li>
+<li>✓ Comfortable room</li>
+<li>✓ Student friendly</li>
+<li>✓ Boys only</li>
+
+</ul>
+
+<a class="book-btn"
+href="https://wa.me/919772680180?text=Hello%2C%20I%20want%20to%20book%20a%20single%20occupancy%20room.">
+
+Book on WhatsApp
+
+</a>
+
+</div>
+</div>
+
+
+<div class="room-card">
+
+<img src="room2.jpg" class="room-img" alt="Hostel room">
+
+<div class="room-info">
+
+<h3>Shared Room</h3>
+
+<p>Affordable option for students and friends.</p>
+
+<div class="price">
+Contact for Rent
+</div>
+
+<ul class="features">
+
+<li>✓ Student friendly</li>
+<li>✓ Comfortable stay</li>
+<li>✓ Boys only</li>
+<li>✓ Enquire for availability</li>
+
+</ul>
+
+<a class="book-btn"
+href="https://wa.me/919772680180?text=Hello%2C%20I%20want%20to%20know%20about%20shared%20room%20availability.">
+
+Enquire on WhatsApp
+
+</a>
+
+</div>
+</div>
+
+
+<div class="room-card">
+
+<img src="room3.jpg" class="room-img" alt="Hostel accommodation">
+
+<div class="room-info">
+
+<h3>Long-Term Stay</h3>
+
+<p>Suitable for students and working professionals.</p>
+
+<div class="price">
+Contact Us
+</div>
+
+<ul class="features">
+
+<li>✓ Flexible enquiry</li>
+<li>✓ Convenient location</li>
+<li>✓ Boys only</li>
+<li>✓ Direct owner contact</li>
+
+</ul>
+
+<a class="book-btn"
+href="https://wa.me/919772680180?text=Hello%2C%20I%20want%20information%20about%20long-term%20stay.">
+
+Contact Owner
+
+</a>
+
+</div>
+</div>
+
+
+</div>
+</div>
+
+</section>
+
+
+<!-- ================= FEATURES ================= -->
+
+<section class="features-section">
+
+<div class="container">
+
+<div class="section-title">
+
+<small>Why Choose Us</small>
+
+<h2>Hostel Highlights</h2>
+
+</div>
+
+<div class="feature-grid">
+
+<div class="feature">
+<div class="feature-icon">📍</div>
+<h3>Prime Location</h3>
+<p>Near JECRC University & Poornima University.</p>
+</div>
+
+<div class="feature">
+<div class="feature-icon">🏠</div>
+<h3>Comfortable Stay</h3>
+<p>Clean and practical accommodation.</p>
+</div>
+
+<div class="feature">
+<div class="feature-icon">👨‍🎓</div>
+<h3>Student Friendly</h3>
+<p>Convenient option for college students.</p>
+</div>
+
+<div class="feature">
+<div class="feature-icon">📞</div>
+<h3>Direct Contact</h3>
+<p>Talk directly with the owner.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ================= GALLERY ================= -->
+
+<section class="gallery" id="gallery">
+
+<div class="container">
+
+<div class="section-title">
+
+<small>Our Property</small>
+
+<h2>Gallery</h2>
+
+<p>
+Take a look at Shree Bajrangi Boys Hostel.
+</p>
+
+</div>
+
+<div class="gallery-grid">
+
+<img src="front.jpg" alt="Shree Bajrangi Boys Hostel exterior">
+
+<img src="building.jpg" alt="Hostel building">
+
+<img src="corridor.jpg" alt="Hostel corridor">
+
+<img src="room1.jpg" alt="Hostel room">
+
+<img src="room2.jpg" alt="Hostel room">
+
+<img src="room3.jpg" alt="Hostel accommodation">
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ================= ABOUT OWNER ================= -->
+
+<section class="about" id="about">
+
+<div class="container">
+
+<div class="about-grid">
+
+<div>
+
+<img src="building.jpg"
+class="about-img"
+alt="Shree Bajrangi Boys Hostel">
+
+</div>
+
+<div>
+
+<small style="color:#fbbf24;">
+ABOUT THE HOSTEL
+</small>
+
+<h2>
+A Simple, Comfortable Place to Stay
+</h2>
+
+<p>
+Shree Bajrangi Boys Hostel provides accommodation for boys
+looking for a convenient place to stay around Goner Road and
+Vidhani, Jaipur.
+</p>
+
+<p>
+The property is located near major educational institutions,
+making it a practical option for students.
+</p>
+
+<div class="owner-box">
+
+<strong>Owner</strong>
+
+<p style="margin:5px 0 0;">
+Ramswaroop Saini
+</p>
+
+<p style="margin:5px 0 0;">
+📞 9772680180
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ================= LOCATION ================= -->
+
+<section class="location" id="location">
+
+<div class="container">
+
+<div class="section-title">
+
+<small>Find Us</small>
+
+<h2>Our Location</h2>
+
+<p>
+Conveniently located near JECRC University and Poornima University.
+</p>
+
+</div>
+
+
+<div class="location-grid">
+
+<div class="location-card">
+
+<h3>📍 Shree Bajrangi Boys Hostel</h3>
+
+<div class="location-item">
+
+<strong>Address</strong>
+
+Goner Road, Vidhani, Jaipur, Rajasthan
+
+</div>
+
+<div class="location-item">
+
+<strong>Nearby</strong>
+
+JECRC University<br>
+Poornima University
+
+</div>
+
+<div class="location-item">
+
+<strong>WhatsApp</strong>
+
+<a href="https://wa.me/919772680180"
+style="color:#16a34a;font-weight:bold;">
+
+9772680180
+
+</a>
+
+</div>
+
+<a
+class="btn btn-primary"
+target="_blank"
+href="https://www.google.com/maps/search/?api=1&query=Shree+Bajrangi+Boys+Hostel+Goner+Road+Vidhani+Jaipur">
+
+📍 Open Google Maps
+
+</a>
+
+</div>
+
+
+<iframe
+class="map"
+src="https://www.google.com/maps?q=JECRC%20University%20Goner%20Road%20Jaipur&output=embed"
+loading="lazy">
+</iframe>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ================= BOOKING ================= -->
+
+<section class="booking" id="booking">
+
+<div class="container">
+
+<div class="section-title">
+
+<small>Reserve Your Room</small>
+
+<h2>WhatsApp Booking</h2>
+
+<p>
+Fill the form and your booking enquiry will open directly in WhatsApp.
+</p>
+
+</div>
+
+
+<form class="booking-form" onsubmit="sendWhatsApp(event)">
+
+<div class="form-group">
+
+<label>Your Name</label>
+
+<input
+type="text"
+id="name"
+placeholder="Enter your name"
+required>
+
+</div>
+
+
+<div class="form-group">
+
+<label>Phone Number</label>
+
+<input
+type="tel"
+id="phone"
+placeholder="Enter phone number"
+required>
+
+</div>
+
+
+<div class="form-group">
+
+<label>Room Type</label>
+
+<select id="room">
+
+<option>Single Occupancy</option>
+<option>Shared Room</option>
+<option>Long-Term Stay</option>
+<option>Not Sure</option>
+
+</select>
+
+</div>
+
+
+<div class="form-group">
+
+<label>Expected Move-in Date</label>
+
+<input
+type="date"
+id="date">
+
+</div>
+
+
+<div class="form-group">
+
+<label>Message</label>
+
+<textarea
+id="message"
+rows="4"
+placeholder="Any questions or requirements?"></textarea>
+
+</div>
+
+
+<button class="whatsapp-submit" type="submit">
+
+💬 Send Booking Enquiry on WhatsApp
+
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<div class="footer-grid">
+
+<div>
+
+<h3>Shree Bajrangi Boys Hostel</h3>
+
+<p>
+Comfortable boys accommodation near JECRC University
+and Poornima University, Goner Road, Vidhani, Jaipur.
+</p>
+
+</div>
+
+
+<div>
+
+<h3>Quick Links</h3>
+
+<a href="#home">Home</a>
+<a href="#rooms">Rooms</a>
+<a href="#gallery">Gallery</a>
+<a href="#location">Location</a>
+
+</div>
+
+
+<div>
+
+<h3>Contact</h3>
+
+<a href="tel:+919772680180">
+📞 9772680180
+</a>
+
+<a href="https://wa.me/919772680180">
+💬 WhatsApp
+</a>
+
+</div>
+
+</div>
+
+
+<div class="copyright">
+
+© 2026 Shree Bajrangi Boys Hostel. All Rights Reserved.
+
+</div>
+
+</footer>
+
+
+<!-- ================= FLOATING BUTTONS ================= -->
+
+<a
+class="call-float"
+href="tel:+919772680180"
+aria-label="Call">
+☎
+</a>
+
+
+<a
+class="whatsapp-float"
+href="https://wa.me/919772680180"
+aria-label="WhatsApp">
+💬
+</a>
+
+
+<script>
+
+/* MOBILE MENU */
+
+function toggleMenu(){
+
+    const menu = document.getElementById("navLinks");
+
+    menu.classList.toggle("active");
+
+}
+
+
+/* CLOSE MENU AFTER CLICK */
+
+document.querySelectorAll(".nav-links a").forEach(link => {
+
+    link.addEventListener("click", () => {
+
+        document.getElementById("navLinks")
+        .classList.remove("active");
+
+    });
+
+});
+
+
+/* WHATSAPP BOOKING */
+
+function sendWhatsApp(event){
+
+    event.preventDefault();
+
+    const name =
+        document.getElementById("name").value;
+
+    const phone =
+        document.getElementById("phone").value;
+
+    const room =
+        document.getElementById("room").value;
+
+    const date =
+        document.getElementById("date").value;
+
+    const message =
+        document.getElementById("message").value;
+
+
+    const text =
+`Hello Shree Bajrangi Boys Hostel,
+
+I want to enquire/book a room.
+
+Name: ${name}
+Phone: ${phone}
+Room Type: ${room}
+Move-in Date: ${date || "Not decided"}
+
+Message:
+${message || "No additional message."}
+
+Please share availability and further details.`;
+
+
+    const whatsappURL =
+        "https://wa.me/919772680180?text="
+        + encodeURIComponent(text);
+
+
+    window.open(whatsappURL, "_blank");
+
+}
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indrajeet | Web Developer</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #222;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: #222;
+            color: white;
+        }
+
+        h1 {
+            font-size: 38px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            margin: 20px 0;
+            padding: 25px;
+            border-radius: 12px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #222;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #222;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Hi, I'm Indrajeet 👋</h1>
+    <p>Web Developer</p>
+    <p>I create simple websites for small businesses.</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>About Me</h2>
+        <p>
+            I'm learning web development and building modern,
+            simple and professional websites.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>My Services</h2>
+        <p>🌐 Business Websites</p>
+        <p>📱 Mobile-Friendly Websites</p>
+        <p>💼 Portfolio Websites</p>
+    </div>
+
+    <div class="card">
+        <h2>My Projects</h2>
+        <p>Coming soon...</p>
+    </div>
+
+    <div class="card">
+        <h2>Contact Me</h2>
+        <p>Let's work together!</p>
+
+        <a class="button" href="mailto:YOUR_Email_Indrajeetmeena9828@gmail.com">
+            Contact Me
+        </a>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Indrajeet
+</footer>
+
+</body>
+</html>
